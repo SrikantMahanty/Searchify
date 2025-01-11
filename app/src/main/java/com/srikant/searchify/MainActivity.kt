@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                 progressDialog.setCancelable(false)
                 progressDialog.show()
                 // Call to getWebSearch using the new API parameters
-                mainViewModel.getWebSearch("google", 10, 0, "us", "en")
+                mainViewModel.getWebSearch(query.toString(), 10, 0, "us", "en")
 
                 mainViewModel.myResponse.observe(this@MainActivity, Observer { response ->
                     if (response.isSuccessful) {

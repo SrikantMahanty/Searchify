@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Searchify</string>
+    <string name="google">Google</string>
+    <string name="this_is_the_desciption_of">This is the Desciption of</string>
 </resources>
